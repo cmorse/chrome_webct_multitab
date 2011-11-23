@@ -1,11 +1,13 @@
 {
-  "name": "Chrome WebCT MultiTab",
-  "version": "1.0",
-  "description": "Extension which allows multiple WebCT tabs to be opened simultaneously.",
-  "browser_action": {
-    "default_icon": "cookie.png"
-  },
-  "permissions": [ "cookies", "*://*/*" ],
-  "background_page": "background.html",
-  "options_page": "options.html"
+	"name": "Chrome WebCT MultiTab",
+	"version": "1.0.2",
+	"description": "Extension which allows multiple WebCT tabs to be opened simultaneously.",
+	"icons": {
+		"16": "icon16.png",
+		"48": "icon48.png",
+		"128": "icon128.png"
+	},
+	"permissions": [ "cookies", "*://webct.*.edu/", "*://vista.*.edu/", "*://*.edu/webct/" ],
+	"background_page": "background.html",
+	"options_page": "options.html"
 }
