@@ -1,6 +1,6 @@
 {
 	"name": "WebCT MultiTab",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "Extension which allows multiple WebCT tabs to be opened simultaneously.",
 	"icons": {
 		"16": "icon16.png",

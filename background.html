@@ -4,6 +4,9 @@ var localStorageName = "domains";
 
 chrome.cookies.onChanged.addListener(function(changeInfo) {
 	var cookie = changeInfo.cookie;
+	if(localStorage[localStorageName] == null) {
+		return;
+	}
 	var domains = JSON.parse(localStorage[localStorageName]);
 	
 	for(var i = 0; i < domains.length; i++) {
