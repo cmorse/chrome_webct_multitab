@@ -1,5 +1,3 @@
-<script>
-
 var localStorageName = "domains";
 
 chrome.cookies.onChanged.addListener(function(changeInfo) {
@@ -20,6 +18,3 @@ function removeCookie(cookie) {
             cookie.path;
   chrome.cookies.remove({"url": url, "name": cookie.name});
 }
-
-
-</script>
