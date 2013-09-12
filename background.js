@@ -21,3 +21,5 @@ function removeCookie(cookie) {
             cookie.path;
   chrome.cookies.remove({"url": url, "name": cookie.name});
 }
+
+asdf
