@@ -1,3 +1,9 @@
+/*!
+ * Copyright (c) 2011 Caleb Morse
+ * Released under the MIT license
+ * http://opensource.org/licenses/mit-license.php
+ */
+
 var localStorageName = "domains";
 
 chrome.cookies.onChanged.addListener(function(changeInfo) {
